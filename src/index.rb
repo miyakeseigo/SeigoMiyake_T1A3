@@ -4,7 +4,7 @@ require_relative "item"
 require_relative "shop"
 require_relative "user"
 
-SHOP_NAME = "Sydney Ramen Shop"
+SHOP_NAME = "Sydney Ramen"
 MONEY = 100
 
 items = Item.import(path: "items.csv")

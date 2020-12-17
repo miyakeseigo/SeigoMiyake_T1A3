@@ -9,11 +9,11 @@ class Shop
   def display
     puts "Welcome to #{@name}!".green
     puts "Here is our menu."
-    puts "*" * 30
+    puts "*" * 26
     @items.each.with_index(1) do |item, index|
       puts "#{index.to_s.rjust(2)}. #{item.name.ljust(16)}: $#{item.price}".yellow
     end
-    puts "*" * 30
+    puts "*" * 26
   end
 
   def sell(user, item)

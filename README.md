@@ -113,7 +113,7 @@ You must include:
 
 5. Run the app with:
 
-```ruby main.rb```
+```ruby index.rb```
 
 #### any dependencies required by the application to operate
 - If there is no ```pry```installed, implement ```gem install pry``` or delete ```require "pry"``` in ```index.rb```.
